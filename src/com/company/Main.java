@@ -22,8 +22,7 @@ public class Main extends Admin {
 
     public static void homepage()
     {
-
-
+        // This method acts as a homepage for the program
         Scanner s = new Scanner(System.in);
         System.out.println("***********************************************************");
         System.out.println("*********************   Home page   ***********************\n" +
@@ -63,6 +62,7 @@ public class Main extends Admin {
     }
 
     public static void createNewAccount() {
+        //This method is used to create new account for patients
         Scanner scan = new Scanner(System.in);
         Scanner scanner = new Scanner(System.in);
         System.out.println("***********************************************************");
@@ -147,6 +147,7 @@ public class Main extends Admin {
     }
 
     public static void removePatientAccounts(){
+        //This method is used to remove patient accounts
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter username: ");
@@ -158,6 +159,7 @@ public class Main extends Admin {
     }
 
     public static void showPatientDetails(){
+        //This method is used to show patient details
         Scanner scan = new Scanner(System.in);
         System.out.println("To get the patient details, please enter patient username..............");
 

@@ -84,7 +84,7 @@ public class Admin {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("***********************************************************");
-        System.out.print("******************    Admin Home page    ******************\n" +
+        System.out.print("******************    Admin Modify page    ******************\n" +
                 "***********************************************************\n");
 
         try
