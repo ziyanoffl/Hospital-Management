@@ -201,11 +201,12 @@ public class Main extends Admin {
         System.out.println("Information has been successfully input!\n" +
                 "Please wait until Admin for your appointment!\n" +
                 "Thank you for using the app!\n");
-        System.exit(1);
+        homepage();
     }
 
     public static void showNewPatientAccountRequests(){
         System.out.println("These are the requested accounts: " + NewPatientRequest);
+        editPatientInformation();
     }
 
 
